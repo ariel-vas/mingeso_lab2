@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="config-server" />
+        <module name="ms-reparaciones" />
+        <module name="ms-reportes" />
+        <module name="gateway-server" />
+        <module name="ms-registro" />
+        <module name="eureka-server" />
+        <module name="ms-vehiculos" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ms-vehiculo" target="17" />
+      <module name="ms-vista-general" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="config-server" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="gateway-server" options="-parameters" />
+      <module name="ms-registro" options="-parameters" />
+      <module name="ms-reparaciones" options="-parameters" />
+      <module name="ms-reportes" options="-parameters" />
+      <module name="ms-vehiculo" options="-parameters" />
+      <module name="ms-vehiculos" options="-parameters" />
+      <module name="ms-vista-general" options="-parameters" />
+    </option>
+  </component>
+</project>
