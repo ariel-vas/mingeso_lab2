@@ -30,7 +30,7 @@ public class VehiculoController {
         return vehiculoService.getVehiculoByPatente(patenteVehiculo);
     }
 
-    @PostMapping("/vehiculos")
+    @PostMapping("/vehiculos/registrar")
     VehiculoEntity createVehiculo(@RequestBody CrearVehiculo body)
     {
         System.out.println(body);
