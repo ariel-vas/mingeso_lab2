@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("")
+@RequestMapping("/app")
 public class Tipo_vehiculoController {
     Tipo_vehiculoService tipo_vehiculoService;
 

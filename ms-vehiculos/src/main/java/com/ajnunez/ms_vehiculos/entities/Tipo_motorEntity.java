@@ -10,7 +10,6 @@ import lombok.Setter;
 @Setter
 public class Tipo_motorEntity {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
     Integer id;
 
